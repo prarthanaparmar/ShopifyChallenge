@@ -1,0 +1,17 @@
+.div_top {
+    background-color:#eeeeee;
+    display:inline;      
+}
+.ul_top li{
+    display: inline;
+
+}
+
+.li_top {
+   border: 5px solid #18191a;
+   border-radius: 3px;
+   font-size: 2em;
+   font-family: sans-serif;
+   font-weight: bold;
+   background-color: #d2d7df
+}
