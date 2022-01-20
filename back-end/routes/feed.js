@@ -5,10 +5,10 @@ const router = express.Router();
 
 const feedController = require("../controller/feed");
 
-//GET /feed/posts
+//To view items
 router.get("/posts", feedController.getPosts);
 
-//POST /feed/post
+//To create an item
 router.post(
   "/post",
   [
@@ -18,15 +18,19 @@ router.post(
   ],
   feedController.createPost
 );
+
+//To fetch a particular id
 router.get(
   "/fetchpost/:postId",feedController.getPost
 );
 
-
+//To gwt db data in a CSV file
 router.get('/getcsv', feedController.getcsvdata);
 
+//To edit an item
 router.put('/editpost/:postId', feedController.updatePost);
 
+//To delete an item
 router.delete('/deletepost/:postId', feedController.deleteItem);
 
 
