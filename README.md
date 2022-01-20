@@ -1,7 +1,7 @@
 # ShopifyChallenge
 This is a CRUD application for Shopify BAckend Challenge. 
 
-#Functionality
+# Functionality
 User can:
 1. Add an item to the inventory.
 2. View the list of items in the inventory.
@@ -49,6 +49,7 @@ Get https://localhost:8080/feed/fetchpost/:postId
 This is an extra API that retrieves only particular value from database that matches the postId.
 P.S. This was not a part of tha challenge it was something I tried out hence no backend is configured. 
 If you're curious about using it you may download postman tool from here "https://www.postman.com/downloads/" or use the free web-version and chack by sending a get request to the backend server.
+But the postId can only be obtained from the mongodb configured.
 ```
 
 
