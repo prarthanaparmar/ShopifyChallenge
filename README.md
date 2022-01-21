@@ -23,6 +23,9 @@ To run this application follow the below steps:
    The installation should be done in both backend and frontend folder as both have seperate package.json file.
 5. Go to /back-end destination in your teminal and run the command "npm run dev". This will start the backend as well as the frontend server which has been configured in package.json file in back-end folder.
 
+#Input Data Validation
+The input name and description while creating an item should be more than 5 characters accoording to the conditions set. The backend server would throw an error if these condition are not met.
+
 # Routing
 Get https://localhost:8080/feed/posts
 ```
